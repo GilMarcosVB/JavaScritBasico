@@ -11,8 +11,8 @@
 <body>
     <script>
 
-        var aprovado = true;
-        var frequencia = parseInt(prompt("Sua nota"));
+        let aprovado = prompt("Você foi aprovado? True para sim ou false para não.").toLowerCase
+        let frequencia = parseInt(prompt("Sua nota"));
         if (aprovado && frequencia >= 75) {
             document.write("Aprovado por nota e frequência.");
         }

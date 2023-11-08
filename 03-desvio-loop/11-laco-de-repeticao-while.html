@@ -10,16 +10,14 @@
 
 <body>
     <script>
-
-        let pontuação = parseInt(prompt("Sua Pontuação"));
-        if (pontuação >= 90) {
-            document.write("Aprovado com distinção!");
-        } else if (pontuação >= 60) {
-            document.write("Aprovado");
-        } else {
-            document.write("Reprovado");
+        let numeroInicial = (prompt("Numero Inicial"));
+        var numeroFinal = 5
+        while (numeroInicial <= numeroFinal) {
+            document.write("Contagem: " + numeroInicial + "<br>");
+            numeroInicial++;
         }
     </script>
+
 </body>
 
 </html>
